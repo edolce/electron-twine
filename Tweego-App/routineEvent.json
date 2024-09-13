@@ -1,0 +1,406 @@
+{
+  "path": "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-0.Beach",
+  "mainPassage": "sofia_deluca_routine_beach",
+  "files": [
+    "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-0.Beach/Conversation/conversation.twee",
+    "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-0.Beach/Flirt/-flirt.twee",
+    "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-0.Beach/main.twee"
+  ],
+  "passages": {
+    "sofia_deluca_routine_beach_conversation_decision": {
+      "wrapperName": null,
+      "passageName": "sofia_deluca_routine_beach_conversation_decision",
+      "dialogues": [],
+      "choiceStream": [
+        {
+          "type": "normal",
+          "id": "1000",
+          "label": "Work?",
+          "target": "sofia_deluca_routine_beach_conversation_decision_work"
+        },
+        {
+          "type": "normal",
+          "id": "1000",
+          "label": "How are you?",
+          "target": "sofia_deluca_routine_beach_conversation_decision_how_are_you"
+        }
+      ]
+    },
+    "sofia_deluca_routine_beach_conversation_decision_work": {
+      "wrapperName": null,
+      "passageName": "sofia_deluca_routine_beach_conversation_decision_work",
+      "dialogues": [
+        {
+          "type": "say",
+          "characterId": "sofia_deluca",
+          "characterName": "Sofia",
+          "dialogueText": "Please... I'm relaxing. I don't want to talk about work."
+        }
+      ],
+      "choiceStream": []
+    },
+    "sofia_deluca_routine_beach_conversation_decision_how_are_you": {
+      "wrapperName": null,
+      "passageName": "sofia_deluca_routine_beach_conversation_decision_how_are_you",
+      "dialogues": [
+        {
+          "type": "say",
+          "characterId": "sofia_deluca",
+          "characterName": "Sofia",
+          "dialogueText": "I'm fine, thank you. I'm just enjoying the beach."
+        }
+      ],
+      "choiceStream": []
+    },
+    "sofia_deluca_routine_beach_conversation_decision_join": {
+      "wrapperName": null,
+      "passageName": "sofia_deluca_routine_beach_conversation_decision_join",
+      "dialogues": [
+        {
+          "type": "say",
+          "characterId": "sofia_deluca",
+          "characterName": "Sofia",
+          "dialogueText": "Why not? I'm just relaxing."
+        },
+        {
+          "type": "say",
+          "characterId": "sofia_deluca",
+          "characterName": "Sofia",
+          "dialogueText": "The sun is so hot today, what about a walk on the beach?"
+        },
+        {
+          "type": "say",
+          "characterId": "sofia_deluca",
+          "characterName": "Sofia",
+          "dialogueText": "I love the sound of the waves. The sea is the most valueable piece of art in the world. Don't you think?"
+        }
+      ],
+      "choiceStream": [
+        {
+          "type": "hard",
+          "id": "1001",
+          "label": "I'm tired",
+          "target": "sofia_deluca_routine_beach"
+        }
+      ]
+    },
+    "sofia_deluca_routine_beach_conversation_decision_swim_failed": {
+      "wrapperName": null,
+      "passageName": "sofia_deluca_routine_beach_conversation_decision_swim_failed",
+      "dialogues": [
+        {
+          "type": "say",
+          "characterId": "sofia_deluca",
+          "characterName": "Sofia",
+          "dialogueText": "I'd love to swim, but I'm not sure if you can keep up with me."
+        }
+      ],
+      "choiceStream": []
+    },
+    "sofia_deluca_routine_beach_conversation_decision_swim": {
+      "wrapperName": null,
+      "passageName": "sofia_deluca_routine_beach_conversation_decision_swim",
+      "dialogues": [
+        {
+          "type": "say",
+          "characterId": "sofia_deluca",
+          "characterName": "Sofia",
+          "dialogueText": "Let's go!"
+        },
+        {
+          "type": "say",
+          "characterId": "Sofia",
+          "characterName": "sofia_deluca",
+          "dialogueText": "I go underwater are you coming?"
+        }
+      ],
+      "choiceStream": [
+        {
+          "type": "normal",
+          "id": "1002",
+          "label": "No",
+          "target": "sofia_deluca_routine_beach_conversation_decision_swim_no"
+        }
+      ]
+    },
+    "sofia_deluca_routine_beach_conversation_decision_swim_no": {
+      "wrapperName": null,
+      "passageName": "sofia_deluca_routine_beach_conversation_decision_swim_no",
+      "dialogues": [
+        {
+          "type": "say",
+          "characterId": "sofia_deluca",
+          "characterName": "Sofia",
+          "dialogueText": "I'm sorry, I don't think you can keep up with me."
+        }
+      ],
+      "choiceStream": []
+    },
+    "sofia_deluca_routine_beach_conversation_decision_swim_yes": {
+      "wrapperName": null,
+      "passageName": "sofia_deluca_routine_beach_conversation_decision_swim_yes",
+      "dialogues": [],
+      "choiceStream": []
+    },
+    "sofia_deluca_routine_beach_conversation_decision_swim_yes_2": {
+      "wrapperName": "Beach",
+      "passageName": "sofia_deluca_routine_beach_conversation_decision_swim_yes_2",
+      "dialogues": [],
+      "choiceStream": []
+    },
+    "sofia_deluca_routine_beach_conversation_decision_swim_yes_3": {
+      "wrapperName": "Beach",
+      "passageName": "sofia_deluca_routine_beach_conversation_decision_swim_yes_3",
+      "dialogues": [
+        {
+          "type": "say",
+          "characterId": "sofia_deluca",
+          "characterName": "Sofia",
+          "dialogueText": "Woah that was amazing! I love swimming, but I'm getting tired. Let's go back to the beach."
+        }
+      ],
+      "choiceStream": []
+    },
+    "sofia_deluca_routine_beach_conversation_decision_swim_yes_failed": {
+      "wrapperName": null,
+      "passageName": "sofia_deluca_routine_beach_conversation_decision_swim_yes_failed",
+      "dialogues": [
+        {
+          "type": "say",
+          "characterId": "sofia_deluca",
+          "characterName": "Sofia",
+          "dialogueText": "I'm sorry, I don't think you can keep up with me."
+        }
+      ],
+      "choiceStream": []
+    },
+    "sofia_deluca_routine_beach_conversation_decision_join_failed": {
+      "wrapperName": null,
+      "passageName": "sofia_deluca_routine_beach_conversation_decision_join_failed",
+      "dialogues": [
+        {
+          "type": "say",
+          "characterId": "sofia_deluca",
+          "characterName": "Sofia",
+          "dialogueText": "Mmh I don't think so. You know, I'm just relaxing."
+        }
+      ],
+      "choiceStream": []
+    },
+    "sofia_deluca_routine_beach_flirting": {
+      "wrapperName": null,
+      "passageName": "sofia_deluca_routine_beach_flirting",
+      "dialogues": [],
+      "choiceStream": [
+        {
+          "type": "hard",
+          "id": "1000",
+          "label": "Back",
+          "target": "sofia_deluca_routine_beach"
+        }
+      ]
+    },
+    "sofia_deluca_routine_beach_flirting_show_body": {
+      "wrapperName": null,
+      "passageName": "sofia_deluca_routine_beach_flirting_show_body",
+      "dialogues": [
+        {
+          "type": "say",
+          "characterId": "sofia_deluca",
+          "characterName": "Sofia",
+          "dialogueText": "Ehy $playername, I'm not sure if this is the right place to do this... but I'm not complaining..."
+        },
+        {
+          "type": "fast_image",
+          "imageUrl": "assets/images/yotta-beach-body.png"
+        }
+      ],
+      "choiceStream": []
+    },
+    "sofia_deluca_routine_beach_flirting_boobs": {
+      "wrapperName": null,
+      "passageName": "sofia_deluca_routine_beach_flirting_boobs",
+      "dialogues": [
+        {
+          "type": "say",
+          "characterId": "sofia_deluca",
+          "characterName": "Sofia",
+          "dialogueText": "That's a bold move $playername... I like it... but not here my little pervert..."
+        },
+        {
+          "type": "fast_image",
+          "imageUrl": "assets/images/yotta-beach-boobs.png"
+        }
+      ],
+      "choiceStream": []
+    },
+    "sofia_deluca_routine_beach_flirting_show_body_failed": {
+      "wrapperName": null,
+      "passageName": "sofia_deluca_routine_beach_flirting_show_body_failed",
+      "dialogues": [
+        {
+          "type": "say",
+          "characterId": "sofia_deluca",
+          "characterName": "Sofia",
+          "dialogueText": "I'm sorry $playername, but I don't think this is the right place to do this..."
+        }
+      ],
+      "choiceStream": []
+    },
+    "sofia_deluca_routine_beach_flirting_boobs_failed": {
+      "wrapperName": null,
+      "passageName": "sofia_deluca_routine_beach_flirting_boobs_failed",
+      "dialogues": [
+        {
+          "type": "say",
+          "characterId": "sofia_deluca",
+          "characterName": "Sofia",
+          "dialogueText": "I'm sorry $playername, but I don't think this is the right place to do this..."
+        }
+      ],
+      "choiceStream": []
+    },
+    "sofia_deluca_routine_beach": {
+      "wrapperName": "Beach",
+      "passageName": "sofia_deluca_routine_beach",
+      "dialogues": [
+        {
+          "type": "fast_image",
+          "imageUrl": "https://i.ibb.co/gt0Crzg/immagine-2024-09-07-141451680.png"
+        },
+        {
+          "type": "say",
+          "characterId": "sofia_deluca",
+          "characterName": "Sofia",
+          "dialogueText": "Hi $playername, Are you enjoying the beach?"
+        }
+      ],
+      "choiceStream": [
+        {
+          "type": "normal",
+          "id": "0000",
+          "label": "Conversation",
+          "target": "sofia_deluca_routine_beach_conversation_decision"
+        },
+        {
+          "type": "normal",
+          "id": "0000",
+          "label": "Flirt",
+          "target": "sofia_deluca_routine_beach_flirting"
+        },
+        {
+          "type": "hard",
+          "id": "0000",
+          "label": "Back",
+          "target": "beach_handler"
+        }
+      ]
+    }
+  },
+  "tree": {
+    "passageName": "sofia_deluca_routine_beach",
+    "dialogues": [
+      {
+        "type": "fast_image",
+        "imageUrl": "https://i.ibb.co/gt0Crzg/immagine-2024-09-07-141451680.png"
+      },
+      {
+        "type": "say",
+        "characterId": "sofia_deluca",
+        "characterName": "Sofia",
+        "dialogueText": "Hi $playername, Are you enjoying the beach?"
+      }
+    ],
+    "choices": [
+      {
+        "type": "normal",
+        "id": "0000",
+        "label": "Conversation",
+        "target": "sofia_deluca_routine_beach_conversation_decision"
+      },
+      {
+        "type": "normal",
+        "id": "0000",
+        "label": "Flirt",
+        "target": "sofia_deluca_routine_beach_flirting"
+      },
+      {
+        "type": "hard",
+        "id": "0000",
+        "label": "Back",
+        "target": "beach_handler"
+      }
+    ],
+    "children": [
+      {
+        "passageName": "sofia_deluca_routine_beach_conversation_decision",
+        "dialogues": [],
+        "choices": [
+          {
+            "type": "normal",
+            "id": "1000",
+            "label": "Work?",
+            "target": "sofia_deluca_routine_beach_conversation_decision_work"
+          },
+          {
+            "type": "normal",
+            "id": "1000",
+            "label": "How are you?",
+            "target": "sofia_deluca_routine_beach_conversation_decision_how_are_you"
+          }
+        ],
+        "children": [
+          {
+            "passageName": "sofia_deluca_routine_beach_conversation_decision_work",
+            "dialogues": [
+              {
+                "type": "say",
+                "characterId": "sofia_deluca",
+                "characterName": "Sofia",
+                "dialogueText": "Please... I'm relaxing. I don't want to talk about work."
+              }
+            ],
+            "choices": [],
+            "children": []
+          },
+          {
+            "passageName": "sofia_deluca_routine_beach_conversation_decision_how_are_you",
+            "dialogues": [
+              {
+                "type": "say",
+                "characterId": "sofia_deluca",
+                "characterName": "Sofia",
+                "dialogueText": "I'm fine, thank you. I'm just enjoying the beach."
+              }
+            ],
+            "choices": [],
+            "children": []
+          }
+        ]
+      },
+      {
+        "passageName": "sofia_deluca_routine_beach_flirting",
+        "dialogues": [],
+        "choices": [
+          {
+            "type": "hard",
+            "id": "1000",
+            "label": "Back",
+            "target": "sofia_deluca_routine_beach"
+          }
+        ],
+        "children": []
+      }
+    ]
+  },
+  "schedule": {
+    "Saturday": {
+      "afternoon": "sofia_deluca_routine_beach",
+      "evening": "sofia_deluca_routine_beach"
+    },
+    "Sunday": {
+      "morning": "sofia_deluca_routine_beach",
+      "evening": "sofia_deluca_routine_beach"
+    }
+  }
+}

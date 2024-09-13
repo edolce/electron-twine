@@ -1,0 +1,2005 @@
+{
+  "macroLocation": "ArtGallery",
+  "path": "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca",
+  "characterId": "sofia_deluca",
+  "characterDisplayName": "Sofia",
+  "characterJobDescription": "Art Gallery Curator",
+  "characterMacroLocationDisplay": "Art Gallery",
+  "characterImageCharList": "https://i.redd.it/a7uk98b6z1071.jpg",
+  "characterDialoguesImage": "https://i.redd.it/a7uk98b6z1071.jpg",
+  "characterChoiceImage": "https://i.redd.it/a7uk98b6z1071.jpg",
+  "events": {
+    "sofia_deluca_scene_1_init": {
+      "initPassageName": "sofia_deluca_scene_1_init",
+      "title": "First meeting with Sofia De Luca",
+      "description": "You visit Sofia De Luca's prestigious art gallery, where she greets you with her usual enigmatic charm. She gives you a private tour of the latest exhibition, sharing her insights on each piece and subtly testing your knowledge of art.",
+      "scene": "sofia_deluca_scene_1",
+      "handler": "art_hall_handler",
+      "time": "afternoon",
+      "icon": "main_mission_icon",
+      "priority": "1",
+      "isActive": "false",
+      "eventPassageName": "sofia_deluca_scene_1",
+      "eventPassage": {
+        "passageName": "sofia_deluca_scene_1",
+        "wrapperName": null,
+        "dialogues": [
+          {
+            "type": "fast_image",
+            "imageUrl": "https://kenyanbulletin.com/wp-content/uploads/2023/11/Marisol-Yotta.jpg"
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "Welcome to our latest exhibition, I'm Sofia De Luca, the curator of this gallery. I'm delighted to meet you. I hope you enjoy your visit today."
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "*Sofia is even more stunning in person. I can't wait to see the art pieces she has curated.*"
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "Thanks, Sofia. I’ve heard a lot about your gallery. It’s... really something."
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "*Uh oh, I hope I don’t sound too clueless.*"
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "Let me show you our first piece. *[gestures towards an abstract painting]*"
+          },
+          {
+            "type": "fast_image",
+            "imageUrl": "https://i.ibb.co/ngmNWFT/immagine-2024-09-04-184144813.png"
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "This piece is by a renowned artist, known for his bold use of colors and abstract shapes. What do you think of it?"
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "*This feels very strange... I see some bodies in the painting, but it's so abstract...*"
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "It's... intriguing. The colors and shapes are so vibrant, and I feel like there's a lot of emotion behind it."
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "You have a keen eye. The artist was indeed inspired by her personal experiences and emotions when creating this piece."
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "Let's move on to the next piece. *[leads you to a sculpture]* This sculpture is a representation of the human form, but with a twist. What do you see in it?"
+          },
+          {
+            "type": "fast_image",
+            "imageUrl": "https://i.ibb.co/YbMNqdM/immagine-2024-09-04-184656059.png"
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "*Gulp... those curves turn me on... is it weird to think that?*"
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "It's a provocative piece, isn't it? The artist wanted to challenge traditional notions of beauty and perfection."
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "It's definitely provoking... I like that."
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "I'm glad you appreciate it. Art is meant to evoke emotions and spark conversations. Let's continue our tour."
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "Here we have a rare collection of handcuffs, they are manufactured by a famous artist in collaboration with Gucci. What do you think of them?"
+          },
+          {
+            "type": "fast_image",
+            "imageUrl": "https://i.ibb.co/WVmN8J6/immagine-2024-09-04-185456349.png"
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "*Handcuffs? This is getting kinky...*"
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "They're... unexpected. I didn't expect to see something like this in an art gallery."
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "Art can take many forms, and sometimes it challenges our preconceptions. These handcuffs are a statement on freedom and restraint, a powerful juxtaposition."
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "To be honest, I find them quite intriguing. I can only imagine the feelings of them on my wrists..."
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "*Did Sofia just... never mind.*"
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "I have to attend to some other guests, so this concludes our tour for today. I hope you enjoyed it."
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "Thank you, Sofia. I really appreciatethe opportunity to see such unique pieces."
+          }
+        ],
+        "choiceStream": []
+      }
+    },
+    "sofia_deluca_scene_2_init": {
+      "initPassageName": "sofia_deluca_scene_2_init",
+      "title": "Art Auction Invitation",
+      "description": "You receive an invitation to an exclusive art auction hosted by Sofia. The event is filled with elite art collectors and influential figures. Sofia introduces you to key players and asks for your opinion on some of the pieces up for bid. Your choices could affect her future dealings.",
+      "scene": "sofia_deluca_scene_2",
+      "handler": "art_hall_handler",
+      "time": "afternoon",
+      "icon": "main_mission_icon",
+      "priority": "2",
+      "status": "sofia_deluca_scene_1",
+      "isActive": "false",
+      "eventPassageName": "sofia_deluca_scene_2",
+      "eventPassage": {
+        "passageName": "sofia_deluca_scene_2",
+        "wrapperName": null,
+        "dialogues": [
+          {
+            "type": "fast_image",
+            "imageUrl": "https://i.ibb.co/PTHvNmg/immagine-2024-09-04-191225759.png"
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "Welcome to the exclusive art auction! I’m delighted to see you here."
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "*Sofia looks stunning as always. I wonder what kind of art pieces will be up for bid.*"
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "Thank you for inviting me, Sofia. I’m excited to see the pieces and meet the other guests."
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "Let me introduce you to some of our elite collectors. *[gestures to a group of well-dressed individuals]*"
+          },
+          {
+            "type": "fast_image",
+            "imageUrl": "https://i.ibb.co/J2yWZvY/immagine-2024-09-04-191631130.png"
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "This is Lara De Santis, she is a key figure in the art world and a close friend of mine. *[Lara smiles warmly]*"
+          },
+          {
+            "type": "say",
+            "characterId": "lara_de_santis",
+            "characterName": "Lara",
+            "dialogueText": "Well, well well, Sofia, you always bring the most interesting guests to our events. It's a pleasure to meet you, $playername."
+          },
+          {
+            "type": "say",
+            "characterId": "lara_de_santis",
+            "characterName": "Lara",
+            "dialogueText": "Sofia has said that you have a keen eye for art. I'm curious to hear your thoughts on the pieces up for auction."
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "*I hope I can impress Lara with my knowledge of art, I think that if I manage to I will gain Sofia's trust.*"
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "It's an honor to meet you, Lara. Looking forward to seeing the pieces up for bid."
+          },
+          {
+            "type": "say",
+            "characterId": "Auctioneer",
+            "characterName": "Auctioneer",
+            "dialogueText": "Ladies and gentlemen, welcome to the auction! We have some exquisite pieces up for bid today, and I'm sure you'll find something that speaks to your heart."
+          },
+          {
+            "type": "fast_image",
+            "imageUrl": "https://i.ibb.co/9yWsxBS/immagine-2024-09-04-192424189.png"
+          },
+          {
+            "type": "say",
+            "characterId": "Auctioneer",
+            "characterName": "Auctioneer",
+            "dialogueText": "Our first piece is a stunning sculpture by a rising artist. The bidding will start at $10,000. Do I hear $10,000?"
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "*10,000 dollars for a sculpture? That's way more than I make in a month.*"
+          },
+          {
+            "type": "say",
+            "characterId": "lara_de_santis",
+            "characterName": "Lara",
+            "dialogueText": "Only $10,000? That's a steal for such a beautiful piece. We have to play it smart, we could make a fortune with this one."
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "*Lara seems to know her way around auctions. I should follow her lead.*"
+          },
+          {
+            "type": "say",
+            "characterId": "Auctioneer",
+            "characterName": "Auctioneer",
+            "dialogueText": "Going once, going twice... Sold to the gentleman in the front row for $15,000!"
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "Brilliant choice Lara! I'm sure this piece will find a good home with you."
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "Yeah Lara, that was a great buy. I'm impressed by your eye for art."
+          },
+          {
+            "type": "say",
+            "characterId": "lara_de_santis",
+            "characterName": "Lara",
+            "dialogueText": "Thank you, $playername. I have a good feeling about this piece. Let's see what else is up for bid."
+          },
+          {
+            "type": "say",
+            "characterId": "Auctioneer",
+            "characterName": "Auctioneer",
+            "dialogueText": "We will take a short break before the next piece. Please enjoy the refreshments and mingle with your fellow art enthusiasts."
+          },
+          {
+            "type": "say",
+            "characterId": "lara_de_santis",
+            "characterName": "Lara",
+            "dialogueText": "Hey Sofia while we are waiting look at this new outfit I bought yesterday, what do you think?"
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "*I'm really curious to see what Lara is showing Sofia.*"
+          }
+        ],
+        "choiceStream": [
+          {
+            "type": "normal",
+            "id": "0000",
+            "label": "Peek and RISK IT",
+            "target": "sofia_deluca_scene_2_00"
+          },
+          {
+            "type": "normal",
+            "id": "0000",
+            "label": "Stay calm",
+            "target": "sofia_deluca_scene_2_01"
+          }
+        ]
+      }
+    },
+    "sofia_deluca_scene_3_init": {
+      "initPassageName": "sofia_deluca_scene_3_init",
+      "title": "Helping a friend",
+      "description": "Sofia tells you that Lara (Her friend at the auction) is in trouble and needs your help.",
+      "scene": "sofia_deluca_scene_3",
+      "handler": "art_boss_room_handler",
+      "time": "morning",
+      "icon": "main_mission_icon",
+      "priority": "2",
+      "status": "sofia_deluca_scene_2",
+      "isActive": "false",
+      "eventPassageName": "sofia_deluca_scene_3",
+      "eventPassage": {
+        "passageName": "sofia_deluca_scene_3",
+        "wrapperName": "Main Event | Sofia De Luca | Scene 3",
+        "dialogues": [
+          {
+            "type": "fast_image",
+            "imageUrl": "assets/images/chars/yotta/yotta-yoga1.jpeg"
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "$playername, sorry but I'm in the middle of my yoga session. In the meantime, I will tell you what happened at the auction."
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "*Wow that position is so sexy, I can't stop staring at her.*"
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "Do you remember Lara De Santis? She's a friend of mine who was at the auction. She's in trouble and needs your help."
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "*Those b are huge, and that top is so tight... It seems like she's not wearing a bra.*"
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "$playername, are you even listening to me? I need your help, please follow me."
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "Yeah sure, I'm listening. I've just had a long day and I'm a bit tired."
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "Okay, No problem. I'll explain everything, just wait a second, I need to change the position a bit."
+          },
+          {
+            "type": "fast_image",
+            "imageUrl": "assets/images/chars/yotta/yotta-yoga2.jpeg"
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "Yesterday the instagram account of Lara was hacked and the hacker is threatening to release her private photos if she doesn't pay a ransom."
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "Paying the ransom is not a problem for her, but she doesn't want to give in to the hacker's demands."
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "She needs your help to find out who the hacker is and stop him before he releases the photos."
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "I know you have talked about you being in a software security company, so I thought you could help her... Can you?\n        I will be there to help you with anything you need, and I will make sure you are rewarded for your help."
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "*This could be an interesting situation, I could get close to some private photos of Lara... I mean, I could help her and gain Sofia's trust.*"
+          },
+          {
+            "type": "say",
+            "characterId": "Player",
+            "characterName": "$playername",
+            "dialogueText": "I will help her, Sofia. I will do my best to find out who the hacker is and stop him."
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "Thank you, $playername. I knew I could count on you!"
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "Yes, I have everything you need. I will send you the information right now."
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "I will be waiting for you at the art gallery, come as soon as you have the information."
+          }
+        ],
+        "choiceStream": []
+      }
+    }
+  },
+  "routine": {
+    "-*.Friend Night": {
+      "path": "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-*.Friend Night"
+    },
+    "-*.Late Night Film": {
+      "path": "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-*.Late Night Film"
+    },
+    "-*.Late Work": {
+      "path": "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-*.Late Work"
+    },
+    "-*.RelaxHome": {
+      "path": "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-*.RelaxHome"
+    },
+    "-0.Beach": {
+      "path": "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-0.Beach",
+      "mainPassage": "sofia_deluca_routine_beach",
+      "files": [
+        "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-0.Beach/Conversation/conversation.twee",
+        "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-0.Beach/Flirt/-flirt.twee",
+        "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-0.Beach/main.twee"
+      ],
+      "passages": {
+        "sofia_deluca_routine_beach_conversation_decision": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_routine_beach_conversation_decision",
+          "dialogues": [],
+          "choiceStream": [
+            {
+              "type": "normal",
+              "id": "1000",
+              "label": "Work?",
+              "target": "sofia_deluca_routine_beach_conversation_decision_work"
+            },
+            {
+              "type": "normal",
+              "id": "1000",
+              "label": "How are you?",
+              "target": "sofia_deluca_routine_beach_conversation_decision_how_are_you"
+            }
+          ]
+        },
+        "sofia_deluca_routine_beach_conversation_decision_work": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_routine_beach_conversation_decision_work",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Please... I'm relaxing. I don't want to talk about work."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_routine_beach_conversation_decision_how_are_you": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_routine_beach_conversation_decision_how_are_you",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "I'm fine, thank you. I'm just enjoying the beach."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_routine_beach_conversation_decision_join": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_routine_beach_conversation_decision_join",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Why not? I'm just relaxing."
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "The sun is so hot today, what about a walk on the beach?"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "I love the sound of the waves. The sea is the most valueable piece of art in the world. Don't you think?"
+            }
+          ],
+          "choiceStream": [
+            {
+              "type": "hard",
+              "id": "1001",
+              "label": "I'm tired",
+              "target": "sofia_deluca_routine_beach"
+            }
+          ]
+        },
+        "sofia_deluca_routine_beach_conversation_decision_swim_failed": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_routine_beach_conversation_decision_swim_failed",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "I'd love to swim, but I'm not sure if you can keep up with me."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_routine_beach_conversation_decision_swim": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_routine_beach_conversation_decision_swim",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Let's go!"
+            },
+            {
+              "type": "say",
+              "characterId": "Sofia",
+              "characterName": "sofia_deluca",
+              "dialogueText": "I go underwater are you coming?"
+            }
+          ],
+          "choiceStream": [
+            {
+              "type": "normal",
+              "id": "1002",
+              "label": "No",
+              "target": "sofia_deluca_routine_beach_conversation_decision_swim_no"
+            }
+          ]
+        },
+        "sofia_deluca_routine_beach_conversation_decision_swim_no": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_routine_beach_conversation_decision_swim_no",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "I'm sorry, I don't think you can keep up with me."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_routine_beach_conversation_decision_swim_yes": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_routine_beach_conversation_decision_swim_yes",
+          "dialogues": [],
+          "choiceStream": []
+        },
+        "sofia_deluca_routine_beach_conversation_decision_swim_yes_2": {
+          "wrapperName": "Beach",
+          "passageName": "sofia_deluca_routine_beach_conversation_decision_swim_yes_2",
+          "dialogues": [],
+          "choiceStream": []
+        },
+        "sofia_deluca_routine_beach_conversation_decision_swim_yes_3": {
+          "wrapperName": "Beach",
+          "passageName": "sofia_deluca_routine_beach_conversation_decision_swim_yes_3",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Woah that was amazing! I love swimming, but I'm getting tired. Let's go back to the beach."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_routine_beach_conversation_decision_swim_yes_failed": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_routine_beach_conversation_decision_swim_yes_failed",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "I'm sorry, I don't think you can keep up with me."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_routine_beach_conversation_decision_join_failed": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_routine_beach_conversation_decision_join_failed",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Mmh I don't think so. You know, I'm just relaxing."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_routine_beach_flirting": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_routine_beach_flirting",
+          "dialogues": [],
+          "choiceStream": [
+            {
+              "type": "hard",
+              "id": "1000",
+              "label": "Back",
+              "target": "sofia_deluca_routine_beach"
+            }
+          ]
+        },
+        "sofia_deluca_routine_beach_flirting_show_body": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_routine_beach_flirting_show_body",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Ehy $playername, I'm not sure if this is the right place to do this... but I'm not complaining..."
+            },
+            {
+              "type": "fast_image",
+              "imageUrl": "assets/images/yotta-beach-body.png"
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_routine_beach_flirting_boobs": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_routine_beach_flirting_boobs",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "That's a bold move $playername... I like it... but not here my little pervert..."
+            },
+            {
+              "type": "fast_image",
+              "imageUrl": "assets/images/yotta-beach-boobs.png"
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_routine_beach_flirting_show_body_failed": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_routine_beach_flirting_show_body_failed",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "I'm sorry $playername, but I don't think this is the right place to do this..."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_routine_beach_flirting_boobs_failed": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_routine_beach_flirting_boobs_failed",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "I'm sorry $playername, but I don't think this is the right place to do this..."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_routine_beach": {
+          "wrapperName": "Beach",
+          "passageName": "sofia_deluca_routine_beach",
+          "dialogues": [
+            {
+              "type": "fast_image",
+              "imageUrl": "https://i.ibb.co/gt0Crzg/immagine-2024-09-07-141451680.png"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Hi $playername, Are you enjoying the beach?"
+            }
+          ],
+          "choiceStream": [
+            {
+              "type": "normal",
+              "id": "0000",
+              "label": "Conversation",
+              "target": "sofia_deluca_routine_beach_conversation_decision"
+            },
+            {
+              "type": "normal",
+              "id": "0000",
+              "label": "Flirt",
+              "target": "sofia_deluca_routine_beach_flirting"
+            },
+            {
+              "type": "hard",
+              "id": "0000",
+              "label": "Back",
+              "target": "beach_handler"
+            }
+          ]
+        }
+      },
+      "tree": {
+        "passageName": "sofia_deluca_routine_beach",
+        "dialogues": [
+          {
+            "type": "fast_image",
+            "imageUrl": "https://i.ibb.co/gt0Crzg/immagine-2024-09-07-141451680.png"
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "Hi $playername, Are you enjoying the beach?"
+          }
+        ],
+        "choices": [
+          {
+            "type": "normal",
+            "id": "0000",
+            "label": "Conversation",
+            "target": "sofia_deluca_routine_beach_conversation_decision"
+          },
+          {
+            "type": "normal",
+            "id": "0000",
+            "label": "Flirt",
+            "target": "sofia_deluca_routine_beach_flirting"
+          },
+          {
+            "type": "hard",
+            "id": "0000",
+            "label": "Back",
+            "target": "beach_handler"
+          }
+        ],
+        "children": [
+          {
+            "passageName": "sofia_deluca_routine_beach_conversation_decision",
+            "dialogues": [],
+            "choices": [
+              {
+                "type": "normal",
+                "id": "1000",
+                "label": "Work?",
+                "target": "sofia_deluca_routine_beach_conversation_decision_work"
+              },
+              {
+                "type": "normal",
+                "id": "1000",
+                "label": "How are you?",
+                "target": "sofia_deluca_routine_beach_conversation_decision_how_are_you"
+              }
+            ],
+            "children": [
+              {
+                "passageName": "sofia_deluca_routine_beach_conversation_decision_work",
+                "dialogues": [
+                  {
+                    "type": "say",
+                    "characterId": "sofia_deluca",
+                    "characterName": "Sofia",
+                    "dialogueText": "Please... I'm relaxing. I don't want to talk about work."
+                  }
+                ],
+                "choices": [],
+                "children": []
+              },
+              {
+                "passageName": "sofia_deluca_routine_beach_conversation_decision_how_are_you",
+                "dialogues": [
+                  {
+                    "type": "say",
+                    "characterId": "sofia_deluca",
+                    "characterName": "Sofia",
+                    "dialogueText": "I'm fine, thank you. I'm just enjoying the beach."
+                  }
+                ],
+                "choices": [],
+                "children": []
+              }
+            ]
+          },
+          {
+            "passageName": "sofia_deluca_routine_beach_flirting",
+            "dialogues": [],
+            "choices": [
+              {
+                "type": "hard",
+                "id": "1000",
+                "label": "Back",
+                "target": "sofia_deluca_routine_beach"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      "schedule": {
+        "Saturday": {
+          "afternoon": "sofia_deluca_routine_beach",
+          "evening": "sofia_deluca_routine_beach"
+        },
+        "Sunday": {
+          "morning": "sofia_deluca_routine_beach",
+          "evening": "sofia_deluca_routine_beach"
+        }
+      }
+    },
+    "-0.Studio": {
+      "path": "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-0.Studio",
+      "mainPassage": "sofia_deluca_art_office",
+      "files": [
+        "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-0.Studio/Conversation/conversation.twee",
+        "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-0.Studio/Flirting/-flirting.twee",
+        "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-0.Studio/Flirting/boobs.twee",
+        "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-0.Studio/Flirting/hug.twee",
+        "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-0.Studio/Flirting/kiss.twee",
+        "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-0.Studio/Flirting/showBody.twee",
+        "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-0.Studio/main.twee"
+      ],
+      "passages": {
+        "sofia_deluca_work_conversation_decision": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_conversation_decision",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "What would you like to talk about?"
+            }
+          ],
+          "choiceStream": [
+            {
+              "type": "normal",
+              "id": "0011",
+              "label": "Why did you become a curator?",
+              "target": "sofia_deluca_work_conversation_art"
+            },
+            {
+              "type": "normal",
+              "id": "0011",
+              "label": "What is your favourite pice of art?",
+              "target": "sofia_deluca_work_conversation_personal"
+            },
+            {
+              "type": "hard",
+              "id": "0011",
+              "label": "Back",
+              "target": "sofia_deluca-monday-afternoon"
+            }
+          ]
+        },
+        "sofia_deluca_work_conversation_art": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_conversation_art",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "I've always been passionate about art. I think art is what makes us human."
+            },
+            {
+              "type": "say",
+              "characterId": "Player",
+              "characterName": "$playername",
+              "dialogueText": "That's a beautiful thought."
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Thank you. I'm glad you think so."
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "I'm curious, can I ask you a question?"
+            }
+          ],
+          "choiceStream": [
+            {
+              "type": "normal",
+              "id": "0012",
+              "label": "Sure",
+              "target": "sofia_deluca_work_conversation_art_question"
+            },
+            {
+              "type": "normal",
+              "id": "0012",
+              "label": "No",
+              "target": "sofia_deluca_work_conversation_art_question_no"
+            }
+          ]
+        },
+        "sofia_deluca_work_conversation_art_question": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_conversation_art_question",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Do you think art saved humanity or humanity saved art?"
+            }
+          ],
+          "choiceStream": [
+            {
+              "type": "normal",
+              "id": "0013",
+              "label": "Art saved humanity",
+              "target": "sofia_deluca_work_conversation_art_question_answer0"
+            },
+            {
+              "type": "normal",
+              "id": "0013",
+              "label": "Humanity saved art",
+              "target": "sofia_deluca_work_conversation_art_question_answer1"
+            }
+          ]
+        },
+        "sofia_deluca_work_conversation_art_question_answer0": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_conversation_art_question_answer0",
+          "dialogues": [
+            {
+              "type": "fast_image",
+              "imageUrl": "https://i.ibb.co/2Fwf3GH/immagine-2024-09-05-121647246.png"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "I think the same. Art is the only thing that can save us..."
+            },
+            {
+              "type": "say",
+              "characterId": "Player",
+              "characterName": "$playername",
+              "dialogueText": "*Mmh... Is she up to something?*"
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_work_conversation_art_question_answer1": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_conversation_art_question_answer1",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "That's an interesting perspective."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_work_conversation_art_question_no": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_conversation_art_question_no",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "That's okay. I understand."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_work_conversation_personal": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_conversation_personal",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Wow for an art lover like me, this question is like asking a mother to choose her favourite child..."
+            },
+            {
+              "type": "say",
+              "characterId": "Player",
+              "characterName": "$playername",
+              "dialogueText": "I'm sure you have a favourite."
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "I do... It's a painting by an artist named Xavier Robert. It's called \"The Last Dance\"."
+            },
+            {
+              "type": "say",
+              "characterId": "Player",
+              "characterName": "$playername",
+              "dialogueText": "Wow do you have it here?"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "No, it's in a private collection. But I have a replica in my office."
+            }
+          ],
+          "choiceStream": [
+            {
+              "type": "hard",
+              "id": "0111",
+              "label": "Back",
+              "target": "sofia_deluca_art_office"
+            }
+          ]
+        },
+        "sofia_deluca_work_conversation_personal_painting_succes": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_conversation_personal_painting_succes",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "I can show it to you, but you have to promise me you won't tell anyone.\n        This is a very special piece to me. And not many people can understand its beauty."
+            },
+            {
+              "type": "fast_image",
+              "imageUrl": "https://www.vice.com/wp-content/uploads/sites/2/2017/07/1500998042953-2-weregoat1.jpeg"
+            },
+            {
+              "type": "say",
+              "characterId": "Player",
+              "characterName": "$playername",
+              "dialogueText": "*What... What is this? This is kinda creepy*"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "This is the replica of the painting. The original is in a private collection."
+            },
+            {
+              "type": "say",
+              "characterId": "Player",
+              "characterName": "$playername",
+              "dialogueText": "*I don't know what to say...*"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "I know it's not for everyone. But it has a deep message."
+            },
+            {
+              "type": "say",
+              "characterId": "Player",
+              "characterName": "$playername",
+              "dialogueText": "What is it?"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "It's about the end of the world. The last dance of humanity."
+            },
+            {
+              "type": "say",
+              "characterId": "Player",
+              "characterName": "$playername",
+              "dialogueText": "And what does sex have to do with it?"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Sex is the most intimate act between two people. It's the ultimate expression of love and ART."
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "The demon in the painting represents the end of the world. The end of humanity.\n        But the girl distract him with her body... with her art... with her love."
+            },
+            {
+              "type": "say",
+              "characterId": "Player",
+              "characterName": "$playername",
+              "dialogueText": "*I don't know what to say...*"
+            }
+          ],
+          "choiceStream": [
+            {
+              "type": "normal",
+              "id": "0112",
+              "label": "I understand",
+              "target": "sofia_deluca_work_conversation_personal_painting_succes_understand"
+            },
+            {
+              "type": "normal",
+              "id": "0112",
+              "label": "I don't understand",
+              "target": "sofia_deluca_work_conversation_personal_painting_succes_dont_understand"
+            }
+          ]
+        },
+        "sofia_deluca_work_conversation_personal_painting_succes_understand": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_conversation_personal_painting_succes_understand",
+          "dialogues": [
+            {
+              "type": "fast_image",
+              "imageUrl": "https://i.ibb.co/BVJQ6XK/immagine-2024-09-05-123843150.png"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Really?! That's makes me so happy!"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Maybe you can help me with something..."
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "**Will he be able to stand the real one?**"
+            },
+            {
+              "type": "say",
+              "characterId": "Player",
+              "characterName": "$playername",
+              "dialogueText": "*What is she talking about?! The real one is even creepier?*"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Mhh maybe in another occasion, at my place..."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_work_conversation_personal_painting_succes_dont_understand": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_conversation_personal_painting_succes_dont_understand",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "That's a shame. I thought you would understand..."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_work_conversation_personal_painting_failed": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_conversation_personal_painting_failed",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "I'm sorry, but I can't show it to you.\n        I feel like you wouldn't understand its beauty."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_work_flirting": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_flirting",
+          "dialogues": [],
+          "choiceStream": [
+            {
+              "type": "hard",
+              "id": "2000",
+              "label": "Back",
+              "target": "art_boss_room_handler"
+            }
+          ]
+        },
+        "sofia_deluca_work_flirting_boobs_failed": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_flirting_boobs_failed",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "My Boobs?? What kind of pervert!! I'm not that type of woman!"
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_work_flirting_show_boobs_success": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_flirting_show_boobs_success",
+          "dialogues": [
+            {
+              "type": "fast_image",
+              "imageUrl": "https://i.ibb.co/hRJLV86/immagine-2024-09-05-133927847.png"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "My boobs? They are one of my best art pieces... You have to earn them..."
+            }
+          ],
+          "choiceStream": [
+            {
+              "type": "normal",
+              "id": "2100",
+              "label": "Show Dick",
+              "target": "sofia_deluca_work_flirting_show_boobs_success_show_dick"
+            },
+            {
+              "type": "normal",
+              "id": "2100",
+              "label": "Show Physique",
+              "target": "sofia_deluca_work_flirting_show_boobs_success_show_physique"
+            },
+            {
+              "type": "hard",
+              "id": "2100",
+              "label": "Back",
+              "target": "art_boss_room_handler"
+            }
+          ]
+        },
+        "sofia_deluca_work_flirting_show_boobs_success_show_dick": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_flirting_show_boobs_success_show_dick",
+          "dialogues": [
+            {
+              "type": "fast_image",
+              "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZj1Q6nqcZgFrUOKSADR2PKRBevAtbYGCuCg&s"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Mmmmh I like that..."
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "I think you deserve your reward!"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "I'm glad you like what you see..."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_work_flirting_show_boobs_success_show_physique": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_flirting_show_boobs_success_show_physique",
+          "dialogues": [],
+          "choiceStream": []
+        },
+        "sofia_deluca_work_flirting_hug_failed": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_flirting_hug_failed",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Oh, I'm sorry. I'm not really in the mood for a hug right now."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_work_flirting_hug_success": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_flirting_hug_success",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Oh, you're so sweet. Come here!"
+            },
+            {
+              "type": "fast_image",
+              "imageUrl": "https://i.ibb.co/M6W82Qk/immagine-2024-09-05-125814707.png"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "I'm so glad you're here. I was feeling a bit lonely."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_work_flirting_kiss_failed": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_flirting_kiss_failed",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Oh, I'm sorry, but I'm not ready for that yet."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_work_flirting_kiss_success": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_flirting_kiss_success",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Aww, that was sweet..."
+            },
+            {
+              "type": "fast_image",
+              "imageUrl": "https://i.ibb.co/8jg7sH3/immagine-2024-09-05-131628490.png"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "My lips are waiting..."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_work_flirting_show_body_failed": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_flirting_show_body_failed",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Are you serious?? I'm not that type of woman!"
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_work_flirting_show_body_success": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_work_flirting_show_body_success",
+          "dialogues": [
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Oh, you're so naughty! I like that..."
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "I'm glad you like what you see..."
+            }
+          ],
+          "choiceStream": []
+        },
+        "sofia_deluca_art_office": {
+          "wrapperName": "Art Office",
+          "passageName": "sofia_deluca_art_office",
+          "dialogues": [
+            {
+              "type": "fast_image",
+              "imageUrl": "https://i.ibb.co/VV0n92r/immagine-2024-09-05-114203623.png"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Hi, I'm Sofia De Luca, the curator of this gallery. I've never seen you here before. Why don't you come in the afternoon? I'll show you around."
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Hi $playername, I'm working on the new exhibition. Do you need anything?"
+            }
+          ],
+          "choiceStream": [
+            {
+              "type": "normal",
+              "id": "0000",
+              "label": "Conversation",
+              "target": "sofia_deluca_work_conversation_decision"
+            },
+            {
+              "type": "normal",
+              "id": "0000",
+              "label": "Give a gift",
+              "target": "sofia_deluca_work_give_gift"
+            },
+            {
+              "type": "normal",
+              "id": "0000",
+              "label": "Flirt",
+              "target": "sofia_deluca_work_flirting"
+            },
+            {
+              "type": "hard",
+              "id": "0000",
+              "label": "Back",
+              "target": "art_boss_room_handler"
+            }
+          ]
+        }
+      },
+      "tree": {
+        "passageName": "sofia_deluca_art_office",
+        "dialogues": [
+          {
+            "type": "fast_image",
+            "imageUrl": "https://i.ibb.co/VV0n92r/immagine-2024-09-05-114203623.png"
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "Hi, I'm Sofia De Luca, the curator of this gallery. I've never seen you here before. Why don't you come in the afternoon? I'll show you around."
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "Hi $playername, I'm working on the new exhibition. Do you need anything?"
+          }
+        ],
+        "choices": [
+          {
+            "type": "normal",
+            "id": "0000",
+            "label": "Conversation",
+            "target": "sofia_deluca_work_conversation_decision"
+          },
+          {
+            "type": "normal",
+            "id": "0000",
+            "label": "Give a gift",
+            "target": "sofia_deluca_work_give_gift"
+          },
+          {
+            "type": "normal",
+            "id": "0000",
+            "label": "Flirt",
+            "target": "sofia_deluca_work_flirting"
+          },
+          {
+            "type": "hard",
+            "id": "0000",
+            "label": "Back",
+            "target": "art_boss_room_handler"
+          }
+        ],
+        "children": [
+          {
+            "passageName": "sofia_deluca_work_conversation_decision",
+            "dialogues": [
+              {
+                "type": "say",
+                "characterId": "sofia_deluca",
+                "characterName": "Sofia",
+                "dialogueText": "What would you like to talk about?"
+              }
+            ],
+            "choices": [
+              {
+                "type": "normal",
+                "id": "0011",
+                "label": "Why did you become a curator?",
+                "target": "sofia_deluca_work_conversation_art"
+              },
+              {
+                "type": "normal",
+                "id": "0011",
+                "label": "What is your favourite pice of art?",
+                "target": "sofia_deluca_work_conversation_personal"
+              },
+              {
+                "type": "hard",
+                "id": "0011",
+                "label": "Back",
+                "target": "sofia_deluca-monday-afternoon"
+              }
+            ],
+            "children": [
+              {
+                "passageName": "sofia_deluca_work_conversation_art",
+                "dialogues": [
+                  {
+                    "type": "say",
+                    "characterId": "sofia_deluca",
+                    "characterName": "Sofia",
+                    "dialogueText": "I've always been passionate about art. I think art is what makes us human."
+                  },
+                  {
+                    "type": "say",
+                    "characterId": "Player",
+                    "characterName": "$playername",
+                    "dialogueText": "That's a beautiful thought."
+                  },
+                  {
+                    "type": "say",
+                    "characterId": "sofia_deluca",
+                    "characterName": "Sofia",
+                    "dialogueText": "Thank you. I'm glad you think so."
+                  },
+                  {
+                    "type": "say",
+                    "characterId": "sofia_deluca",
+                    "characterName": "Sofia",
+                    "dialogueText": "I'm curious, can I ask you a question?"
+                  }
+                ],
+                "choices": [
+                  {
+                    "type": "normal",
+                    "id": "0012",
+                    "label": "Sure",
+                    "target": "sofia_deluca_work_conversation_art_question"
+                  },
+                  {
+                    "type": "normal",
+                    "id": "0012",
+                    "label": "No",
+                    "target": "sofia_deluca_work_conversation_art_question_no"
+                  }
+                ],
+                "children": [
+                  {
+                    "passageName": "sofia_deluca_work_conversation_art_question",
+                    "dialogues": [
+                      {
+                        "type": "say",
+                        "characterId": "sofia_deluca",
+                        "characterName": "Sofia",
+                        "dialogueText": "Do you think art saved humanity or humanity saved art?"
+                      }
+                    ],
+                    "choices": [
+                      {
+                        "type": "normal",
+                        "id": "0013",
+                        "label": "Art saved humanity",
+                        "target": "sofia_deluca_work_conversation_art_question_answer0"
+                      },
+                      {
+                        "type": "normal",
+                        "id": "0013",
+                        "label": "Humanity saved art",
+                        "target": "sofia_deluca_work_conversation_art_question_answer1"
+                      }
+                    ],
+                    "children": [
+                      {
+                        "passageName": "sofia_deluca_work_conversation_art_question_answer0",
+                        "dialogues": [
+                          {
+                            "type": "fast_image",
+                            "imageUrl": "https://i.ibb.co/2Fwf3GH/immagine-2024-09-05-121647246.png"
+                          },
+                          {
+                            "type": "say",
+                            "characterId": "sofia_deluca",
+                            "characterName": "Sofia",
+                            "dialogueText": "I think the same. Art is the only thing that can save us..."
+                          },
+                          {
+                            "type": "say",
+                            "characterId": "Player",
+                            "characterName": "$playername",
+                            "dialogueText": "*Mmh... Is she up to something?*"
+                          }
+                        ],
+                        "choices": [],
+                        "children": []
+                      },
+                      {
+                        "passageName": "sofia_deluca_work_conversation_art_question_answer1",
+                        "dialogues": [
+                          {
+                            "type": "say",
+                            "characterId": "sofia_deluca",
+                            "characterName": "Sofia",
+                            "dialogueText": "That's an interesting perspective."
+                          }
+                        ],
+                        "choices": [],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "passageName": "sofia_deluca_work_conversation_art_question_no",
+                    "dialogues": [
+                      {
+                        "type": "say",
+                        "characterId": "sofia_deluca",
+                        "characterName": "Sofia",
+                        "dialogueText": "That's okay. I understand."
+                      }
+                    ],
+                    "choices": [],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "passageName": "sofia_deluca_work_conversation_personal",
+                "dialogues": [
+                  {
+                    "type": "say",
+                    "characterId": "sofia_deluca",
+                    "characterName": "Sofia",
+                    "dialogueText": "Wow for an art lover like me, this question is like asking a mother to choose her favourite child..."
+                  },
+                  {
+                    "type": "say",
+                    "characterId": "Player",
+                    "characterName": "$playername",
+                    "dialogueText": "I'm sure you have a favourite."
+                  },
+                  {
+                    "type": "say",
+                    "characterId": "sofia_deluca",
+                    "characterName": "Sofia",
+                    "dialogueText": "I do... It's a painting by an artist named Xavier Robert. It's called \"The Last Dance\"."
+                  },
+                  {
+                    "type": "say",
+                    "characterId": "Player",
+                    "characterName": "$playername",
+                    "dialogueText": "Wow do you have it here?"
+                  },
+                  {
+                    "type": "say",
+                    "characterId": "sofia_deluca",
+                    "characterName": "Sofia",
+                    "dialogueText": "No, it's in a private collection. But I have a replica in my office."
+                  }
+                ],
+                "choices": [
+                  {
+                    "type": "hard",
+                    "id": "0111",
+                    "label": "Back",
+                    "target": "sofia_deluca_art_office"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "passageName": "sofia_deluca_work_flirting",
+            "dialogues": [],
+            "choices": [
+              {
+                "type": "hard",
+                "id": "2000",
+                "label": "Back",
+                "target": "art_boss_room_handler"
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      "schedule": {
+        "Monday": {
+          "morning": "sofia_deluca_art_office"
+        },
+        "Tuesday": {
+          "afternoon": "sofia_deluca_art_office"
+        },
+        "Wednesday": {
+          "morning": "sofia_deluca_art_office"
+        },
+        "Thursday": {
+          "afternoon": "sofia_deluca_art_office"
+        },
+        "Friday": {
+          "morning": "sofia_deluca_art_office"
+        }
+      }
+    },
+    "-1.Gym": {
+      "path": "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-1.Gym",
+      "mainPassage": "sofia_deluca_gym_routine",
+      "files": [
+        "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-1.Gym/main.twee"
+      ],
+      "passages": {
+        "sofia_deluca_gym_routine": {
+          "wrapperName": "Hotel Gym",
+          "passageName": "sofia_deluca_gym_routine",
+          "dialogues": [
+            {
+              "type": "fast_image",
+              "imageUrl": "https://i.ibb.co/HCH5vHd/immagine-2024-09-05-142859148.png"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Hi $playername, you caught me at the gym. The body is like a pice of art, it needs to be taken care of.."
+            }
+          ],
+          "choiceStream": [
+            {
+              "type": "normal",
+              "id": "0000",
+              "label": "Train Together",
+              "target": "sofia_deluca_gym_train_tog"
+            },
+            {
+              "type": "hard",
+              "id": "0000",
+              "label": "Back",
+              "target": "hotel_gym_handler"
+            }
+          ]
+        },
+        "sofia_deluca_gym_train_tog": {
+          "wrapperName": "Hotel Gym",
+          "passageName": "sofia_deluca_gym_train_tog",
+          "dialogues": [
+            {
+              "type": "fast_image",
+              "imageUrl": "https://i.ibb.co/HCH5vHd/immagine-2024-09-05-142859148.png"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Why not?! Let's train together. I'll show you some of my favorite exercises."
+            },
+            {
+              "type": "fast_image",
+              "imageUrl": "https://s11.gifyu.com/images/S1kxz.gif"
+            },
+            {
+              "type": "say",
+              "characterId": "sofia_deluca",
+              "characterName": "Sofia",
+              "dialogueText": "Look at me, I'm a beast! I'm joking, but I do love to train."
+            }
+          ],
+          "choiceStream": []
+        }
+      },
+      "tree": {
+        "passageName": "sofia_deluca_gym_routine",
+        "dialogues": [
+          {
+            "type": "fast_image",
+            "imageUrl": "https://i.ibb.co/HCH5vHd/immagine-2024-09-05-142859148.png"
+          },
+          {
+            "type": "say",
+            "characterId": "sofia_deluca",
+            "characterName": "Sofia",
+            "dialogueText": "Hi $playername, you caught me at the gym. The body is like a pice of art, it needs to be taken care of.."
+          }
+        ],
+        "choices": [
+          {
+            "type": "normal",
+            "id": "0000",
+            "label": "Train Together",
+            "target": "sofia_deluca_gym_train_tog"
+          },
+          {
+            "type": "hard",
+            "id": "0000",
+            "label": "Back",
+            "target": "hotel_gym_handler"
+          }
+        ],
+        "children": [
+          {
+            "passageName": "sofia_deluca_gym_train_tog",
+            "dialogues": [
+              {
+                "type": "fast_image",
+                "imageUrl": "https://i.ibb.co/HCH5vHd/immagine-2024-09-05-142859148.png"
+              },
+              {
+                "type": "say",
+                "characterId": "sofia_deluca",
+                "characterName": "Sofia",
+                "dialogueText": "Why not?! Let's train together. I'll show you some of my favorite exercises."
+              },
+              {
+                "type": "fast_image",
+                "imageUrl": "https://s11.gifyu.com/images/S1kxz.gif"
+              },
+              {
+                "type": "say",
+                "characterId": "sofia_deluca",
+                "characterName": "Sofia",
+                "dialogueText": "Look at me, I'm a beast! I'm joking, but I do love to train."
+              }
+            ],
+            "choices": [],
+            "children": []
+          }
+        ]
+      },
+      "schedule": {
+        "Tuesday": {
+          "morning": "sofia_deluca_gym_routine"
+        },
+        "Thursday": {
+          "morning": "sofia_deluca_gym_routine"
+        }
+      }
+    },
+    "-1.Sleeping": {
+      "path": "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-1.Sleeping"
+    },
+    "-1.Work (Gallery)": {
+      "path": "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-1.Work (Gallery)",
+      "mainPassage": "sofia_deluca_art_exhibition",
+      "files": [
+        "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-1.Work (Gallery)/main.twee"
+      ],
+      "passages": {
+        "sofia_deluca_art_exhibition": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_art_exhibition",
+          "dialogues": [],
+          "choiceStream": []
+        }
+      },
+      "tree": {
+        "passageName": "sofia_deluca_art_exhibition",
+        "dialogues": [],
+        "choices": [],
+        "children": []
+      },
+      "schedule": {
+        "Monday": {
+          "afternoon": "sofia_deluca_art_exhibition",
+          "evening": "sofia_deluca_art_exhibition"
+        }
+      }
+    },
+    "-2.Gambling": {
+      "path": "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-2.Gambling"
+    },
+    "-3.Brunch-Networking": {
+      "path": "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-3.Brunch-Networking"
+    },
+    "-9.Default": {
+      "path": "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-9.Default",
+      "mainPassage": "sofia_deluca_default_routine",
+      "files": [
+        "/Users/edoardo/vs_code_projects/electron_app/assets/Tweego Game Backup/project/twee/2.Characters/ArtGallery/Curator-Sofia_De_Luca/Routine/RoutineEvents/-9.Default/main.twee"
+      ],
+      "passages": {
+        "sofia_deluca_default_routine": {
+          "wrapperName": null,
+          "passageName": "sofia_deluca_default_routine",
+          "dialogues": [],
+          "choiceStream": []
+        }
+      },
+      "tree": {
+        "passageName": "sofia_deluca_default_routine",
+        "dialogues": [],
+        "choices": [],
+        "children": []
+      },
+      "schedule": {
+        "Monday": {
+          "night": "sofia_deluca_default_routine"
+        }
+      }
+    }
+  },
+  "socials": {
+    "Instagram": {
+      "name_id": "sofia_deluca",
+      "profile_info": {
+        "username": "Sofia De Luca",
+        "profile_photo": "assets/images/chars/sofia_deluca/insta/photos/sofia_profile.jpg",
+        "bio": "Art Curator Of San. Rosé Gallery | 28 | Single | Art saved the humanity.",
+        "followers": 250723,
+        "following": 200,
+        "posts": 6
+      },
+      "photos": [
+        "assets/images/chars/sofia_deluca/insta/photos/insta-1.jpg",
+        "assets/images/chars/sofia_deluca/insta/photos/insta-2.jpg",
+        "assets/images/chars/sofia_deluca/insta/photos/insta-3.jpg",
+        "assets/images/chars/sofia_deluca/insta/photos/insta-4.jpg",
+        "assets/images/chars/sofia_deluca/insta/photos/insta-5.jpg",
+        "assets/images/chars/sofia_deluca/insta/photos/insta-6.jpg"
+      ],
+      "chats": [],
+      "passage_id": "sofia_deluca-instagram-page"
+    }
+  }
+}
